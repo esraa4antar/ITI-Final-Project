@@ -1,0 +1,26 @@
+apiVersion: v1
+clusters:
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUVMRENDQXBTZ0F3SUJBZ0lRSSttbmlBQ2V1eCt2djRCUzBjeFMyakFOQmdrcWhraUc5dzBCQVFzRkFEQXYKTVMwd0t3WURWUVFERXlReE9EWmhOVFZqWXkwNE5tWXdMVFF4TW1ZdE9URTBOaTAzTWpJM09XWXdNVEppTnpRdwpJQmNOTWpJeE1URTJNakUxTWpVMFdoZ1BNakExTWpFeE1EZ3lNalV5TlRSYU1DOHhMVEFyQmdOVkJBTVRKREU0Ck5tRTFOV05qTFRnMlpqQXROREV5WmkwNU1UUTJMVGN5TWpjNVpqQXhNbUkzTkRDQ0FhSXdEUVlKS29aSWh2Y04KQVFFQkJRQURnZ0dQQURDQ0FZb0NnZ0dCQU5MalQrTDdlLzZBTFFjMlh2WHAvaXM5OFpjdWEwQVlzQTlEZGl6Swo5QzR2ZEtreFNqWktud3hMakNrUmZKdUt4Q2ovejc5cU9aamJZK0ZzbHU2eXYvRzRUZFNCTzMzcm52YjgwTkNsCnhzRnMrV1hUVUEwTjhxVEtYSzVzOVBaaS9UcWxwaXptMHlIazJvOVU3bnBabGNBVnd5bm4yZm5JZHl3eVY5TWkKcTZpNkNFZkRZMGFTdUdRdThRQ3NaM0NWazhuVmJITm1VaVRGaWd6ZlRSMTl1ZFYvSUZ4SFE3akpBN0Y5QnJZTgo0d3U5K0FGdlIrWlM1WjQ4WFVjck55eU1xN0NaNTRwWS80MFd5RCtlKzd6Qzk0a1NMNUJXQmozS2ZJKzdGZjc4CmphbkVWZU45emV6bUlxc3JkV3hiY1NsRUpjdHMzbkVBYzdsZHJaUW42M1A0MGRRR1VUVjZteXhBSjV6YnRIRDUKb1pXazM4VWRLVFVGZUNVbG9nMWNqSXdOb214b1I0Z2p6bzB1R3VGSXJaZkk2dlZvaGdJZ0xEemt1RDNqMm1MeQp6T0VPbnE1U0lSOTRtajRFckNmT08zN2tocy90OVVFazRWR0dXVjBORGIwU1VmVnRwWHJuTjFLNHZUdkF3Zk1TClptVjFzWmpCS2pXcEw0MEE1ajRHY25GZ013SURBUUFCbzBJd1FEQU9CZ05WSFE4QkFmOEVCQU1DQWdRd0R3WUQKVlIwVEFRSC9CQVV3QXdFQi96QWRCZ05WSFE0RUZnUVVZMUJqcXNEL3lKRGN6K1JHVWp1cU1kMzd3S2t3RFFZSgpLb1pJaHZjTkFRRUxCUUFEZ2dHQkFLQWs1dS9FZ2VDSGtFemw5YXpKYmI5d3dULzAvV2xHK21nZnZRSlN6M1pXCk9GNVMvUW5YTlFjWjNvam5jZ3NNZFhKS0RvRitBZkc4eDJjTXMrRW9ib0FJOVBRWHE4Q3ZWd2Q0OXRvV2doZ20KMWtTYXVyWDVTTnpuU2h6ZzhPRnBpOXZuOUpwdDBDZVBIaGJiT2lTS1hOd3MvOSttN05CVjYra3QzejB2dXBFTQp4V0lNWkVvMHorOXZIUDZxRE85N2xOa2ljaS90U25Mb1dtQlAxNDRDK29UdElYUGZQMlhXL0xZcUMvOGJPSlJxCnkwZ2pUQnZ1REJoM0d6MStWRkZrUWlkc2FySkF5eWF6SE1zcXVKNlcvdHUxL3FQZFFUQ0Y3dGYvMUIwcGp4OHIKL3FiUWRmK3VITGxXc3piL0dRNVFaT2FCSVlLRWNNZjlUZXB1aUpoUzk5R01PR1NvNzF1d3BrZFluekhXc2FUTgpuVUcrdm5Dd25HeVBCR1YwZXNuTnoydGJrMWlYUUoxS1duWCtnZ2FMeFhvQ2dxbTlaa0JhNTJKNVQ3NVpkQjVPCm9CWDZvVi9SN1BUdFpjSUpubE02dGNHeW10aEx6dTQ3RHplYWdCcWtrb0pwL2Frd3dUK2JTMDI4dWxjVFg2R3IKeUdHbTk3eTVqaEdwQXc3Smh4NEI4QT09Ci0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K
+    server: https://172.16.0.2
+  name: gke_lithe-quest-368003_us-central1-a_primary
+contexts:
+- context:
+    cluster: gke_lithe-quest-368003_us-central1-a_primary
+    user: gke_lithe-quest-368003_us-central1-a_primary
+  name: gke_lithe-quest-368003_us-central1-a_primary
+current-context: gke_lithe-quest-368003_us-central1-a_primary
+kind: Config
+preferences: {}
+users:
+- name: gke_lithe-quest-368003_us-central1-a_primary
+  user:
+    auth-provider:
+      config:
+        access-token: ya29.c.b0Aa9VdynEmKbtwyojlV7fXOLmDKsSOulieuwEWR3YrQWyw_mIAd0JRQXT1Kkmrjxqf4WTDS8wLKZ2LVM4zbdCmdCP2vdTbBjq17HvIatG26KAHI3k1CBoGQ_xzjrrX8e52ek-Lvb27e7Jv-fRH85h_uXvTrjpyNODU7gaQpG1ptTzHR4DcV-IUu5Oh8ZtT5n0c4WOqtsjAg.............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+        cmd-args: config config-helper --format=json
+        cmd-path: /usr/lib/google-cloud-sdk/bin/gcloud
+        expiry: "2022-11-17T17:03:48Z"
+        expiry-key: '{.credential.token_expiry}'
+        token-key: '{.credential.access_token}'
+      name: gcp
